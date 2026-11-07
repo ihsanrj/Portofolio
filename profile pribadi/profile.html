@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profil Saya - Personal Branding</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">RJ <span> GROUP</span></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#product">Produk</a></li>
+          <li><a href="#client">Klien</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img src="gambar.jpeg" alt="Foto Profil" class="profile-img" />
+        <h1>Halo, Saya <span class="highlight">Ihsan Ramadhan</span></h1>
+        <p>Pengusaha di bidang Textile / Konveksi / Apparel Profesional.</p>
+        <a href="#contact" class="btn">Hubungi Saya</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>Tentang Saya</h2>
+      <div class="container">
+        <p>
+          Seorang pengusaha terkait dengan kebutuhan sandang. berpengalaman
+          Menyediakan kebutuhan kualitas tinggi untuk seragam Perusahaan,
+          Intansi terkait, Lembaga Pendidikan, Komunitas, Sebuah Brand, Maupun
+          Perorangan.
+        </p>
+      </div>
+    </section>
+
+    <section id="product" class="section bg-light">
+      <h2>Produk Saya</h2>
+      <div class="skills-grid">
+        <div class="skill-card">SERAGAM PDL/PDH</div>
+        <div class="skill-card">TOPI</div>
+        <div class="skill-card">TAS RANSEL</div>
+        <div class="skill-card">JAKET</div>
+        <div class="skill-card">POLO SHIRT</div>
+        <div class="skill-card">T-SHIRT</div>
+        <div class="skill-card">CELANA JEANS</div>
+        <div class="skill-card">TOTEBAG</div>
+        <div class="skill-card">HIJAB</div>
+        <div class="skill-card">JERSEY</div>
+      </div>
+    </section>
+
+    <section id="client" class="section">
+      <h2>KLIEN KAMI</h2>
+      <div class="client-bubbles">
+        <div class="client-bubble">
+          <img src="kp.svg" />
+          <span>Kementrian Pertanian</span>
+        </div>
+        <div class="client-bubble">
+          <img src="UPNVJ.png" />
+          <span>UPNVJ</span>
+        </div>
+        <div class="client-bubble">
+          <img src="pertamina.png" />
+          <span>Pertamina</span>
+        </div>
+        <div class="client-bubble">
+          <img src="Toyota.png" />
+          <span>Toyota Indonesia</span>
+        </div>
+        <div class="client-bubble">
+          <img src="HighScope.webp" />
+          <span>Highscope Indonesia</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+      <h2>Hubungi Saya</h2>
+      <div class="container">
+        <p>Tertarik untuk bekerja sama atau Konsultasi? Silakan kirim pesan!</p>
+
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Nama Anda" required />
+          <input type="email" id="email" placeholder="Email Anda" required />
+          <textarea
+            id="message"
+            rows="4"
+            placeholder="Pesan Anda..."
+            required
+          ></textarea>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+
+        <p id="formStatus" class="status-msg"></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Ihsan RJ. Dibuat dengan Html, CSS, dan JavaScript.</p>
+    </footer>
+
+    <script src="fitur.js"></script>
+  </body>
+</html>
